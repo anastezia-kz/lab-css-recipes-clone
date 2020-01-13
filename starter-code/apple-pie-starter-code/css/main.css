@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Dosis&display=swap');
+body {
+    font-family: Roboto;
+    font-size: 19px;
+    margin: 0;
+}
+
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;  
+    height: 750px;
+    color: white;
+    text-align: center;
+    line-height: 750px;
+    font-size: 70px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.header>h2 {
+    margin: 0;
+}
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.img {
+    text-align: center;
+}
+h3 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.hline {
+    width: 100%;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+ol>li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
